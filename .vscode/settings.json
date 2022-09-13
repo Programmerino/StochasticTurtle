@@ -4,5 +4,6 @@
   "nixEnvSelector.nixFile": "${workspaceRoot}/shell.nix",
   // "nixEnvSelector.args": "--pure"
   "haskell.formattingProvider": "fourmolu",
-  "haskell.manageHLS": "PATH"
+  "haskell.manageHLS": "PATH",
+  "haskell.serverExecutablePath": "/nix/store/hkg0qqp8fzcd2wzkqqn78bhlh6wa09mf-haskell-language-server-1.7.0.0/bin/haskell-language-server"
 }
